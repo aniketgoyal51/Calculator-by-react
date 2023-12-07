@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:burlywood;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.container{
+    width: 300px;
+    height: fit-content;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;}
+
+.b1{
+    width: 37.5%;
+}
+
+.b2{
+    width: 50%;
+}
+
+button{
+    height: 60px;
+    width: 25%;
+    font-size: 18px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(182, 182, 182);
+}
+    button:hover{
+        background-color: beige;
+        border-color: white;
+    }
+
+input{
+    width: 97.5%;
+    height: 60px;
+    text-align: end;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
