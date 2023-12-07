@@ -4,7 +4,7 @@ const Display = (props) => {
 
   return (
     <div>
-        <input type="text" defaultValue={props.name}/>
+        <input type="text" Value={props.name}/>
     </div>
   )
 }

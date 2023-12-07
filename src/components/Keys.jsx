@@ -1,5 +1,5 @@
 import React ,{useState} from 'react'
-import Display from './display'
+import Display from './Display'
 import "./css.css"
 
 const Keys = () => {
